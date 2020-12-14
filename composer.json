@@ -1,0 +1,19 @@
+{
+    "name": "sunline/test",
+    "authors": [
+        {
+            "name": "Liao Jianshan",
+            "email": "10775937@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": []
+    },
+    "require": {
+        "ziyoren/database": "^1.1",
+        "ziyoren/fast-php-server": "^0.0.5"
+    }
+}
