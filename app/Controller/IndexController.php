@@ -4,6 +4,8 @@
 namespace App\Controller;
 
 
+use ziyoren\Http\Controller;
+
 class IndexController extends Controller
 {
 
