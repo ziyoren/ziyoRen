@@ -22,6 +22,11 @@
 composer create-project --prefer-dist ziyoren/ziyoren ziyo_api
 ```
 
+## 启动框架
+```shell
+php bin/server.php http start
+```
+
 ## 文档
 
 ### 路由
