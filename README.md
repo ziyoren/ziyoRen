@@ -300,8 +300,7 @@ class Users extends Model
 | ------------- | ---- |
 | id() | `$db->id(); ` //返回最后插入记录的ID |
 | query(string $query) | `$db->query('SELECT email FROM account')->fetchAll();` |
-| quote(string $string) | `$data = "Medoo"; echo "We love " . $db->quote($data); // We love 'Medoo' `
- |
+| quote(string $string) | `$data = "Medoo"; echo "We love " . $db->quote($data); // We love 'Medoo' ` |
 | error() | `var_dump( $db->error() );` |
 | log() | `var_dump( $db->log() );` |
 | last() | `var_dump( $db->last() );` |
