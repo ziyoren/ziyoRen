@@ -19,7 +19,7 @@
 
 ## 安装
 ```shell
-composer require ziyoren/ziyoren
+composer create-project --prefer-dist ziyoren/ziyoren ziyo_api
 ```
 
 ## 文档
