@@ -177,17 +177,6 @@ class UserController extends Controller
 
 `ziyoREN` 的数据库模型基于 `catfan/medoo` 扩展。同时支持 [Swoole的连接池。](https://wiki.swoole.com/#/coroutine/conn_pool) 实现了自动归还连接、事务等功能。
 
-#### PHP_PDO 扩展列表
-|Databases | Driver  |
-| -------- | ------- |
-|Mysql, MariaDB | php_pdo_mysql |
-|MSSQL(Linux/UNIX) | php_pdo_dblib / php_pdo_sqlsrv |
-|Oracle  |  php_pdo_oci |
-|Oracle version 8 | php_pdo_oci8 |
-|SQLite  | php_pdo_sqlite |
-|PostgreSQL | php_pdo_pgsql |
-|Sybase | php_pdo_dblib |
-
 #### 配置
 数据库的配置文件在 `config/databases.php` 文件中，你可以在这个文件中定义数据库的连接配置。
 ```php
